@@ -31,7 +31,6 @@ namespace DurandalOAuthSPA.Controllers
                     username = result.UserName
                 };
             }
-
             return View("AuthentificationCallback");
         }
     }
